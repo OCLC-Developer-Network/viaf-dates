@@ -2,8 +2,8 @@
 import sys
 
 def hijri_to_gregorian(year, month, day):
-   print "Go find and download the hijri code."
-   sys.exit()
+   print >>sys.stderr, "Go find and download the hijri code. Returning 0 instead of the right answer"
+   return [0]
 
 """
 Details here about the hijri code and where to find it.
